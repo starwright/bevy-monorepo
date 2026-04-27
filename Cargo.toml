@@ -1,0 +1,28 @@
+[workspace]
+members = [
+    "bin/game",
+    "bin/devtools",
+    "bin/mobile",
+    "crates/camera",
+    "crates/conf",
+    "crates/core",
+    "crates/gui",
+    "crates/tools",
+]
+default-members = ["bin/game"]
+resolver = "3"
+
+[workspace.package]
+version = "0.0.1"
+edition = "2024"
+license = "AGPL-3.0"
+
+[workspace.dependencies]
+sw_camera = { path = "crates/camera" }
+sw_core = { path = "crates/core" }
+sw_gui = { path = "crates/gui" }
+sw_conf = { path = "crates/conf" }
+sw_tools = { path = "crates/tools" }
+
+[workspace.dependencies.bevy]
+version = "0.18.1"
