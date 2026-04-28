@@ -7,7 +7,6 @@ members = [
     "crates/conf",
     "crates/core",
     "crates/gui",
-    "crates/tools",
 ]
 default-members = ["bin/game"]
 resolver = "3"

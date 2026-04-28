@@ -4561,13 +4561,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "sw_tools"
-version = "0.0.1"
-dependencies = [
- "bevy",
-]
-
-[[package]]
 name = "swash"
 version = "0.2.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
